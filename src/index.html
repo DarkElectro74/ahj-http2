@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Modern Image Manager</title>
+</head>
+<body>
+  <h1 class="header">Modern Image Manager</h1>
+  <div class="container">
+    <input type="file" id="select-file" accept="image/*" />
+    <div id="drop-file">
+      <p>Drag and Drop files here <br> or Click to select</p>
+    </div>
+    <div id="error" class="hidden">Wrong file format. Please load the jpg/png formats.</div>
+    <div class="loaded-images">
+      <div class="loaded-image">
+        <div class="delete"></div>
+        <img class="image" src="./img/image-1.png" alt="image-1">
+      </div>
+      <div class="loaded-image">
+        <div class="delete"></div>
+        <img class="image" src="./img/image-2.png" alt="image-2">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
